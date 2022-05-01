@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-29T20:20:15 EDT" name="nopCommerceV1" finished-at="2022-04-29T20:21:35 EDT" duration-ms="80200">
+    <groups>
+    </groups>
+    <test started-at="2022-04-29T20:20:15 EDT" name="Test 1" finished-at="2022-04-29T20:21:35 EDT" duration-ms="80200">
+      <class name="com.nopcommerce.testCases.TC_AddNewCustomerTest_003">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddNewCustomerTest_003@1ffaf86]" started-at="2022-04-29T20:20:45 EDT" name="setUp" finished-at="2022-04-29T20:20:46 EDT" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomerTest()[pri:0, instance:com.nopcommerce.testCases.TC_AddNewCustomerTest_003@1ffaf86]" started-at="2022-04-29T20:20:46 EDT" name="addCustomerTest" finished-at="2022-04-29T20:21:35 EDT" duration-ms="48779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddNewCustomerTest_003@1ffaf86]" started-at="2022-04-29T20:21:35 EDT" name="tearDown" finished-at="2022-04-29T20:21:35 EDT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_AddNewCustomerTest_003 -->
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@791f145a]" started-at="2022-04-29T20:20:15 EDT" name="setUp" finished-at="2022-04-29T20:20:19 EDT" duration-ms="3226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@791f145a]" started-at="2022-04-29T20:20:19 EDT" name="loginTest" finished-at="2022-04-29T20:20:25 EDT" duration-ms="6600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@791f145a]" started-at="2022-04-29T20:20:25 EDT" name="tearDown" finished-at="2022-04-29T20:20:25 EDT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+      <class name="com.nopcommerce.testCases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginDDT_002@13e344d]" started-at="2022-04-29T20:20:25 EDT" name="setUp" finished-at="2022-04-29T20:20:27 EDT" duration-ms="1230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginDDT_002@13e344d]" started-at="2022-04-29T20:20:28 EDT" name="loginTest" data-provider="loginData" finished-at="2022-04-29T20:20:34 EDT" duration-ms="6359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginDDT_002@13e344d]" started-at="2022-04-29T20:20:34 EDT" name="loginTest" data-provider="loginData" finished-at="2022-04-29T20:20:38 EDT" duration-ms="3330" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginDDT_002@13e344d]" started-at="2022-04-29T20:20:38 EDT" name="loginTest" data-provider="loginData" finished-at="2022-04-29T20:20:41 EDT" duration-ms="3411" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginDDT_002@13e344d]" started-at="2022-04-29T20:20:41 EDT" name="loginTest" data-provider="loginData" finished-at="2022-04-29T20:20:44 EDT" duration-ms="3370" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginDDT_002@13e344d]" started-at="2022-04-29T20:20:44 EDT" name="tearDown" finished-at="2022-04-29T20:20:45 EDT" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginDDT_002 -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- nopCommerceV1 -->
+</testng-results>

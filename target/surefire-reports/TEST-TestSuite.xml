@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="92.389" tests="11" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="./Drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\amarn.SUMITHRA\eclipse-workspace\myworkspace\nopCommerceV1\target\test-classes;C:\Users\amarn.SUMITHRA\eclipse-workspace\myworkspace\nopCommerceV1\target\classes;C:\Users\amarn.SUMITHRA\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.4\selenium-java-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.4\selenium-api-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.4\selenium-chrome-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.4\selenium-chromium-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.4\selenium-json-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.1.4\selenium-devtools-v100-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.1.4\selenium-devtools-v101-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.4\selenium-devtools-v85-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.4\selenium-devtools-v99-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.4\selenium-edge-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.4\selenium-firefox-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.4\selenium-ie-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.4\selenium-opera-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.4\selenium-remote-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-buffer\4.1.76.Final\netty-buffer-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-codec-http\4.1.76.Final\netty-codec-http-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-codec\4.1.76.Final\netty-codec-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-handler\4.1.76.Final\netty-handler-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-common\4.1.76.Final\netty-common-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.76.Final\netty-transport-classes-epoll-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.76.Final\netty-transport-classes-kqueue-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.76.Final\netty-transport-native-epoll-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.76.Final\netty-transport-native-kqueue-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.76.Final\netty-transport-native-unix-common-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport\4.1.76.Final\netty-transport-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-resolver\4.1.76.Final\netty-resolver-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-api\1.13.0\opentelemetry-api-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-context\1.13.0\opentelemetry-context-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.13.0\opentelemetry-exporter-logging-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.13.0-alpha\opentelemetry-sdk-metrics-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.13.0-alpha\opentelemetry-sdk-logs-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.13.0\opentelemetry-sdk-common-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.13.0\opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.13.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.13.0\opentelemetry-sdk-trace-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.13.0\opentelemetry-sdk-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.13.0-alpha\opentelemetry-semconv-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.4\selenium-http-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.4\selenium-safari-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.4\selenium-support-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\amarn.SUMITHRA\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\commons\commons-lang3\3.0\commons-lang3-3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\amarn.SUMITHRA\AppData\Local\Temp\surefire3597581443380483268\surefirebooter8282266569677716446.jar C:\Users\amarn.SUMITHRA\AppData\Local\Temp\surefire3597581443380483268 2022-05-01T18-57-17_265-jvmRun1 surefire5206046211066972442tmp surefire_06122871198007353641tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\amarn.SUMITHRA\eclipse-workspace\myworkspace\nopCommerceV1\target\test-classes;C:\Users\amarn.SUMITHRA\eclipse-workspace\myworkspace\nopCommerceV1\target\classes;C:\Users\amarn.SUMITHRA\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.4\selenium-java-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.4\selenium-api-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.4\selenium-chrome-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.4\selenium-chromium-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.4\selenium-json-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.1.4\selenium-devtools-v100-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.1.4\selenium-devtools-v101-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.4\selenium-devtools-v85-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.4\selenium-devtools-v99-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.4\selenium-edge-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.4\selenium-firefox-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.4\selenium-ie-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.4\selenium-opera-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.4\selenium-remote-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-buffer\4.1.76.Final\netty-buffer-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-codec-http\4.1.76.Final\netty-codec-http-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-codec\4.1.76.Final\netty-codec-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-handler\4.1.76.Final\netty-handler-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-common\4.1.76.Final\netty-common-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.76.Final\netty-transport-classes-epoll-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.76.Final\netty-transport-classes-kqueue-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.76.Final\netty-transport-native-epoll-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.76.Final\netty-transport-native-kqueue-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.76.Final\netty-transport-native-unix-common-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport\4.1.76.Final\netty-transport-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-resolver\4.1.76.Final\netty-resolver-4.1.76.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-api\1.13.0\opentelemetry-api-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-context\1.13.0\opentelemetry-context-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.13.0\opentelemetry-exporter-logging-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.13.0-alpha\opentelemetry-sdk-metrics-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.13.0-alpha\opentelemetry-sdk-logs-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.13.0\opentelemetry-sdk-common-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.13.0\opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.13.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.13.0\opentelemetry-sdk-trace-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.13.0\opentelemetry-sdk-1.13.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.13.0-alpha\opentelemetry-semconv-1.13.0-alpha.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\amarn.SUMITHRA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.4\selenium-http-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.4\selenium-safari-driver-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.4\selenium-support-4.1.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\amarn.SUMITHRA\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\amarn.SUMITHRA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\org\apache\commons\commons-lang3\3.0\commons-lang3-3.0.jar;C:\Users\amarn.SUMITHRA\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\amarn.SUMITHRA\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amarn.SUMITHRA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="C:\Users\amarn.SUMITHRA\eclipse-workspace\myworkspace\nopCommerceV1"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\amarn.SUMITHRA\AppData\Local\Temp\surefire3597581443380483268\surefirebooter8282266569677716446.jar"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="amarn"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amarn.SUMITHRA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AMARN~1.SUM\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="C:\Users\amarn.SUMITHRA\eclipse-workspace\myworkspace\nopCommerceV1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="./Drivers\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_311\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/amarn.SUMITHRA/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/amarn.SUMITHRA/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Python3.9\Scripts\;C:\Python3.9\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Java\bin;C:\Spark\hadoop32\bin;C:\Java\jdk1.8.0_311\bin;C:\Spark\spark3\bin;C:\Python3.9\python.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Drivers\msedgedriver.exe;C:\apache-maven-3.8.5\bin;C:\apache-maven-3.8.5\\bin;C:\apache-maven-3.8.5\bin;C:\Users\amarn.SUMITHRA\AppData\Local\Microsoft\WindowsApps;C:\Users\amarn.SUMITHRA\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_311\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.nopcommerce.testCases.TC_LoginTest_001" time="13.546">
+    <system-out><![CDATA[ INFO [main] (TC_LoginTest_001.java:17)- URL opened
+ INFO [main] (TC_LoginTest_001.java:21)- Email Provided
+ INFO [main] (TC_LoginTest_001.java:23)- Password Provided
+Dashboard / nopCommerce administration
+ INFO [main] (TC_LoginTest_001.java:30)- TestCase Passed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 52849
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 01, 2022 6:57:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2022 6:57:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 100
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.nopcommerce.testCases.TC_LoginTest_001" time="6.183">
+    <system-out><![CDATA[ INFO [main] (TC_LoginTest_001.java:17)- URL opened
+ INFO [main] (TC_LoginTest_001.java:21)- Email Provided
+ INFO [main] (TC_LoginTest_001.java:23)- Password Provided
+Dashboard / nopCommerce administration
+ INFO [main] (TC_LoginTest_001.java:30)- TestCase Passed
+]]></system-out>
+    <system-err><![CDATA[1651445900314	geckodriver	INFO	Listening on 127.0.0.1:62668
+1651445900513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52800" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\AMARN~1.SUM\\AppData\\Local\\Temp\\rust_mozprofileBV183A"
+1651445901312	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AMARN~1.SUM\\AppData\\Local\\Temp\\rust_mozprofileBV183A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52800/devtools/browser/e0719b8e-1d9a-462c-abb6-c532f0b404f6
+1651445904963	Marionette	INFO	Listening on port 62293
+Read port: 62293
+1651445905023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+May 01, 2022 6:58:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[admin@yourstore.com , admin](1)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="6.873">
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadmin@yourstore.com 
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadmin
+Dashboard / nopCommerce administration
+ INFO [main] (TC_LoginDDT_002.java:34)- TestCase Passed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 64606
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 01, 2022 6:57:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2022 6:57:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 100
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[admin@yourstore.com , admin](1)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="3.541">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadmin@yourstore.com 
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadmin
+Your store. Login
+]]></system-out>
+    <system-err><![CDATA[1651445911283	Marionette	INFO	Stopped listening on port 62293
+1651445912666	geckodriver	INFO	Listening on 127.0.0.1:62298
+1651445913151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\AMARN~1.SUM\\AppData\\Local\\Temp\\rust_mozprofileh58ZKz"
+1651445913836	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AMARN~1.SUM\\AppData\\Local\\Temp\\rust_mozprofileh58ZKz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52035/devtools/browser/0c605fe5-ce87-41fd-aac1-a996a6292091
+1651445917064	Marionette	INFO	Listening on port 49363
+Read port: 49363
+1651445917117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+May 01, 2022 6:58:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[admin@yourstore.com , adm](2)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="3.712">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadmin@yourstore.com 
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadm
+Your store. Login
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[admin@yourstore.com , adm](2)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="3.042">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadmin@yourstore.com 
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadm
+Your store. Login
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[adm@yourstore.com, admin](3)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="3.562">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadm@yourstore.com
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadmin
+Your store. Login
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[adm@yourstore.com, admin](3)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="3.193">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadm@yourstore.com
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadmin
+Your store. Login
+]]></system-out>
+    <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[adm@yourstore.com, adm](4)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="4.199">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadm@yourstore.com
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadm
+Your store. Login
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[adm@yourstore.com, adm](4)" classname="com.nopcommerce.testCases.TC_LoginDDT_002" time="3.084">
+    <failure type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.nopcommerce.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- URL opened
+ INFO [main] (TC_LoginDDT_002.java:25)- Email Providedadm@yourstore.com
+ INFO [main] (TC_LoginDDT_002.java:27)- Password Providedadm
+Your store. Login
+]]></system-out>
+    <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+  </testcase>
+  <testcase name="addCustomerTest" classname="com.nopcommerce.testCases.TC_AddNewCustomerTest_003" time="13.749">
+    <system-out><![CDATA[ INFO [main] (TC_AddNewCustomerTest_003.java:13)- URL opened
+ INFO [main] (TC_AddNewCustomerTest_003.java:17)- Email Provided
+ INFO [main] (TC_AddNewCustomerTest_003.java:19)- Password Provided
+HrBBXDya@you.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 52183
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 01, 2022 6:58:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2022 6:58:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 100
+]]></system-err>
+  </testcase>
+</testsuite>
