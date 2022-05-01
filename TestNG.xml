@@ -9,7 +9,7 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
      <class name="com.nopcommerce.testCases.TC_LoginTest_001" /> 
-      <class name="com.nopcommerce.testCases.TC_LoginDDT_002" />
+      <!-- <class name="com.nopcommerce.testCases.TC_LoginDDT_002" />-->
        <class name="com.nopcommerce.testCases.TC_AddNewCustomerTest_003" />
        
     </classes>
@@ -19,7 +19,7 @@
   <parameter name="browser" value="firefox"></parameter>
     <classes>
        <class name="com.nopcommerce.testCases.TC_LoginTest_001" />
-       <class name="com.nopcommerce.testCases.TC_LoginDDT_002" />
+       <!-- <class name="com.nopcommerce.testCases.TC_LoginDDT_002" />-->
     </classes>
   </test>
   
